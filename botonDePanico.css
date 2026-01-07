@@ -129,11 +129,27 @@ footer {
         padding: 15px;
     }
 
+    .header .logo{
+        width: 90%;
+        justify-content: center;
+        padding: 12px 16px;
+    }
+
+    .header .logo img{
+        height: 36px;
+    }
+
+    .logo-text{
+        font-size: 18px;
+        font-weight: bold;
+    }
+
     .header nav {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 12px;
+        text-align: :center;
     }
 
     .header nav a {
