@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    color: #333;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #b30000;
+    color: #fff;
+}
+
+.header img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    padding: 8px 15px;
+    border-radius: 6px;
+}
+.logo-text{
+    color: #b30000;
+    
+}
+
+.header nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-icon {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    color: #b30000;
+}
+
+/* SECTIONS */
+.section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.section.gray {
+    background: #f4f4f4;
+}
+
+.section h2 {
+    color: #b30000;
+}
+
+.highlight {
+    background: #ffe6e6;
+    padding: 15px;
+    border-left: 5px solid #b30000;
+}
+
+/* DISTRITOS */
+select {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.grid li {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    list-style: none;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background: #b30000;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+}
