@@ -27,6 +27,14 @@ body {
     padding: 8px 15px;
     border-radius: 6px;
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+}
+
 .logo-text{
     color: #b30000;
     
@@ -79,6 +87,8 @@ select {
     padding: 10px;
     font-size: 16px;
     margin-top: 15px;
+    width: 100%;
+    max-width: 400px;
 }
 
 .resultado {
@@ -107,4 +117,48 @@ footer {
     color: #fff;
     text-align: center;
     padding: 25px;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .header nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .header nav a {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .hero {
+        padding: 40px 15px;
+    }
+
+    .hero-icon {
+        width: 90px;
+    }
+
+    .section {
+        padding: 35px 15px;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    footer {
+        padding: 20px 10px;
+        font-size: 14px;
+    }
 }
