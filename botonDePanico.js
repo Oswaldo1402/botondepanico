@@ -1,6 +1,6 @@
 const distritosConSistema = [
     "Canta",
-    "
+    
 ];
 
 const selectDistrito = document.getElementById("selectDistrito");
@@ -24,4 +24,5 @@ selectDistrito.addEventListener("change", () => {
         resultado.style.color = "red";
     }
 });
+
 
