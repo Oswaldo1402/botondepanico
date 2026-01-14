@@ -1,7 +1,6 @@
 const distritosConSistema = [
-    "miraflores",
-    "san_isidro",
-    "surco"
+    "Canta",
+    "
 ];
 
 const selectDistrito = document.getElementById("selectDistrito");
@@ -25,3 +24,4 @@ selectDistrito.addEventListener("change", () => {
         resultado.style.color = "red";
     }
 });
+
